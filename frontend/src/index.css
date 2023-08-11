@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.carousel-control-next span,
+.carousel-control-prev span {
+  background-color: rgb(190, 92, 92) !important;
+}
+
+.badge {
+  top: -8px;
+}
+
+@media (max-width: 768px) {
+  .badge {
+    top: 10px;
+    left: 45px !important;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination li {
+  background-color: rgb(6, 119, 249);
+  padding: 20px;
+}
+
+.pagination li a {
+  color: white !important;
+}
+
+.homeContainer {
+  min-height: calc(100vh - 86px);
+}
